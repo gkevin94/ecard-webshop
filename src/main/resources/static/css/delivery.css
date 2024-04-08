@@ -1,0 +1,42 @@
+.delivery-box {
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    cursor: pointer;
+    float: left;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+
+
+    padding: 1em;
+    border: 9px solid transparent;
+    border-image: 16 repeating-linear-gradient(-45deg, red 0, red 1em, transparent 0, transparent 2em,
+            #58a 0, #58a 3em, transparent 0, transparent 4em);
+
+    max-width: 20em;
+    font: 100%/1.6 Baskerville, Palatino, serif;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid blue;
+    border-bottom: 16px solid blue;
+    width: 45px;
+    height: 45px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

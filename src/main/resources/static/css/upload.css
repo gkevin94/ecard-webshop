@@ -1,0 +1,19 @@
+.hidden-input {
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    position: absolute;
+}
+
+.label__first {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 5px;
+    border-left: 6px solid DarkBlue;
+    border
+    font-size: 5em;
+    font-weight:
+    color : red;
+    background-color: MediumSeaGreen;
+    opacity: 0.8;
+}
